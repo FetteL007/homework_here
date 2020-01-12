@@ -1,0 +1,66 @@
+.elephant{
+    width: 20px;
+	height: 20px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+    border-bottom: 50px solid rgb(32, 27, 27);
+    position: relative;
+    top: 30px;
+    left:20px;
+}
+.elephant::before{
+    content: " ";
+    display: block;
+    width:28px;
+    height: 28px;
+    background: rgb(32, 27, 27);
+    border-radius: 50px;
+    top:-5px;
+    left: -4px;
+    position: relative;
+}
+.elephant::after{
+    content: " ";
+    display: block;
+    width:18px;
+    height: 18px;
+    background: rgb(32, 27, 27);
+    border-radius: 50px;
+    top:-45px;
+    left: 1px;
+    position: relative;
+}
+
+
+.elephant2{
+    width: 20px;
+	height: 20px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+    border-bottom: 50px solid rgb(218, 186, 7);
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.elephant2::before{
+    content: " ";
+    display: block;
+    width:28px;
+    height: 28px;
+    background: rgb(218, 186, 7);
+    border-radius: 50px;
+    top:-5px;
+    left: -4px;
+    position: relative;
+}
+.elephant2::after{
+    content: " ";
+    display: block;
+    width:18px;
+    height: 18px;
+    background: rgb(218, 186, 7);
+    border-radius: 50px;
+    top:-45px;
+    left: 1px;
+    position: relative;
+}

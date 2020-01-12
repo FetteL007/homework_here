@@ -1,0 +1,43 @@
+.warior{
+    width: 15px;
+	height: 15px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+    border-bottom: 50px solid rgb(32, 27, 27);
+    position: relative;
+    top: 35px;
+    left:36px;  
+}
+.warior::before{
+    content: " ";
+    display: block;
+        width:28px;
+        height: 28px;
+        background: rgb(32, 27, 27);
+        border-radius: 50px;
+        top:-5px;
+        left: -7px;
+       position: relative;
+}
+
+.warior2{
+    width: 15px;
+	height: 15px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+    border-bottom: 50px solid rgb(218, 186, 7);
+    position: relative;
+    top: 35px;
+    left:36px;  
+}
+.warior2::before{
+    content: " ";
+    display: block;
+        width:28px;
+        height: 28px;
+        background: rgb(218, 186, 7);
+        border-radius: 50px;
+        top:-5px;
+        left: -7px;
+       position: relative;
+}

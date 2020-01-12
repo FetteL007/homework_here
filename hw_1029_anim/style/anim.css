@@ -1,0 +1,98 @@
+.romb, .romb2, .romb3, .romb4{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    /* transform: rotate(45deg); */
+    position: relative;
+    top:300px;
+    left: 300px;
+}
+
+@keyframes zdvig1{
+    0%{
+        left: 300px;
+        top: 300px;
+        transform: rotate(45deg);
+    }
+    60%{
+        left: 270px;
+        top: 300px;
+        transform: rotate(0deg);
+    }
+    100%{
+        left: 300px;
+        top: 300px;
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes zdvig2{
+    0%{
+        top: 300px;
+        left: 300px;
+        transform: rotate(45deg);
+    }
+    60%{
+        top: 270px;
+        left: 300px;
+        transform: rotate(0deg);
+    }
+    100%{
+        top: 300px;
+        left: 300px;
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes zdvig3{
+    0%{
+        top: 300px;
+        left: 300px;
+        transform: rotate(45deg);
+    }
+    60%{
+        top: 330px;
+        left: 300px;
+        transform: rotate(0deg);
+    }
+    100%{
+        top: 300px;
+        left: 300px;
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes zdvig4{
+    0%{
+        left: 300px;
+        top: 300px;
+        transform: rotate(45deg);
+    }
+    60%{
+        left: 330px;
+        top:300px;
+        transform: rotate(0deg);
+    }
+    100%{
+        left: 300px;
+        top:300px;
+        transform: rotate(-45deg);
+    }
+} 
+
+.romb{
+    animation: zdvig1 2s infinite reverse ;
+}
+
+.romb2{
+    animation: zdvig2 2s infinite reverse ;
+}
+
+.romb3{
+    animation: zdvig3 2s infinite reverse;
+}
+
+.romb4{
+    animation: zdvig4 2s infinite reverse;
+}

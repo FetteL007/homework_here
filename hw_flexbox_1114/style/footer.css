@@ -1,0 +1,31 @@
+footer{
+    min-height: 77px;
+    background-color: rgb(48, 48, 48);
+    padding: 32px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+}
+
+footer> div a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: color 0.5s;
+}
+
+footer> div a:hover{
+    color: rgb(255, 153, 0);
+}
+
+.foot__text{
+    color: white;
+    margin: 15px;
+    font-size: 14px;
+}

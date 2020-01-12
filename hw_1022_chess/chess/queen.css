@@ -1,0 +1,70 @@
+.queen {
+	width: 20px;
+	height: 20px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+    border-bottom: 50px solid rgb(32, 27, 27);
+    position: relative;
+    top: 30px;
+    left:20px;
+}
+.queen::before{
+    content: " ";
+    display: block;
+    width:28px;
+    height: 28px;
+    background: rgb(32, 27, 27);
+    border-radius: 50px;
+    top:-5px;
+    left: -4px;
+    position: relative;
+}
+.queen::after{
+   
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+    border-top:20px solid rgb(32, 27, 27); 
+    content: " ";
+    display: block;
+    width:8px;
+    height: 8px;
+    position: relative;
+    top:-51px;
+    left: -3px;
+}
+
+
+.queen2 {
+	width: 20px;
+	height: 20px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+    border-bottom: 50px solid rgb(218, 186, 7);
+    position: relative;
+    top: 30px;
+    left: 35px;
+}
+.queen2::before{
+    content: " ";
+    display: block;
+    width:28px;
+    height: 28px;
+    background: rgb(218, 186, 7);
+    border-radius: 50px;
+    top:-5px;
+    left: -3px;
+    position: relative;
+}
+.queen2::after{
+   
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+    border-top:20px solid rgb(218, 186, 7); 
+    content: " ";
+    display: block;
+    width:8px;
+    height: 8px;
+    position: relative;
+    top:-51px;
+    left: -2px;
+}

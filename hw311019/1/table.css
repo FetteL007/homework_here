@@ -1,0 +1,35 @@
+body{
+    position: sticky;
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    border-collapse: collapse;
+    width: 750px;
+}
+
+th{
+    font-size: 16px;
+    background-color: cornflowerblue;
+   
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+    
+}
+tr:first-child{
+    position: fixed;
+}
+
+td, th{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    
+}
+
+.main{
+    padding: 0;
+}
+

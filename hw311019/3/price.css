@@ -1,0 +1,167 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    padding-top: 160px;
+
+}
+
+.purple{
+    width: 230px;
+    height: 430px;
+    background-color: white;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display: inline-block;
+    padding: 20px;
+    margin: 12px;
+    transition: 1s ease;
+}
+
+.purple:hover{
+    transform: scale(1.2);;
+}
+
+
+.orange{
+    width: 230px;
+    height: 430px;
+    background-color: white;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display: inline-block;
+    padding: 20px;
+    margin: 12px;
+    transition: 1s ease;
+}
+
+.orange:hover{
+    transform: scale(1.2);;
+}
+
+.blue{
+    width: 230px;
+    height: 430px;
+    background-color: white;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display: inline-block;
+    padding: 20px;
+    margin: 12px;
+    transition: 1s ease;
+}
+
+.blue:hover{
+    transform: scale(1.2);;
+}
+
+.green{
+    width: 230px;
+    height: 430px;
+    background-color: white;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display: inline-block;
+    padding: 20px;
+    margin: 12px;
+    transition: 1s ease;
+}
+
+.green:hover {
+    transform: scale(1.2);;
+}
+
+h4{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: larger;
+}
+
+hr{
+   background:rgb(224, 49, 107); 
+   height: 3px;
+   margin: 0;
+   padding: 0;
+   width: 230px;
+}
+
+h1{
+    text-align: center;
+    font-size:65px;
+    margin: 0;
+}
+
+#grey{
+    color: rgb(185, 185, 185);
+    font-size:25px;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    text-align: center;
+    font-size:15px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+div.button{
+    background-color:rgb(224, 49, 107) ;
+    width: 70px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+}
+.yellow{
+    background:rgb(204, 167, 4); 
+    height: 3px;
+    width: 230px;
+}
+.button2{
+    background-color:rgb(204, 167, 4); 
+    width: 70px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.sky{
+    background:rgb(38, 5, 189); 
+    height: 3px;
+}
+
+.button3{
+    background-color:rgb(38, 5, 189); 
+    width: 70px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.zel{
+    background:rgb(45, 248, 4); 
+    height: 3px;
+    width: 230px;
+}
+
+.button4{
+    background-color:rgb(45, 248, 4); 
+    width: 70px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+}
+

@@ -1,0 +1,25 @@
+
+
+h3{
+    color: black;
+}
+
+.rim{
+    list-style-type: upper-roman;
+}
+
+
+
+.lover{
+    list-style-type: lower-alpha;
+}
+
+li{
+    color: black;
+    
+}
+
+li span{
+    color: rgb(124, 81, 243);
+    
+}

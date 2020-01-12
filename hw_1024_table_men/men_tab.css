@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 254, 246);
+ }
+
+table, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+    height: 100px;
+    width: 100px;
+}
+
+.orange{
+    background-color: rgb(255, 125, 73);
+}
+
+.sky{
+    background-color: rgb(0, 174, 255);
+}
+
+.blue{
+    background-color: rgb(0, 81, 255);
+}
+
+.skin{
+    background-color: rgb(248, 183, 117);
+}
+
+.grey{
+    background-color: rgb(209, 209, 209);
+}
+
+.banana{
+    background-color: rgb(233, 233, 0);
+}
+
+.fio{
+    background-color: violet;
+}
+
+.zel{
+    background-color: rgb(0, 172, 157);
+}
+
+.bol{
+    background-color: rgb(100, 128, 114)  ;
+}
+
+.second{
+    padding: 0;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.purple{
+    background-color: purple;
+}
+
+.pink{
+    background-color: pink;
+}

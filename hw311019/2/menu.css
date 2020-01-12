@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+div{
+    text-align: justify;
+    padding: 40px;
+    margin: 70px;
+    margin-left: 180px;
+}
+.tab{
+    width: 50px;
+    height: 100%;
+    margin: 0;
+    background-color: dimgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: width 1s ease;
+} 
+
+.tab:hover{
+    width:250px;
+}
+
+.main{
+    position: fixed;
+    color: white;
+    top: 30px;
+    left: 30px;
+}
+
+.pen{
+    position: fixed;
+    top: 120px;
+    left: 30px;
+}
+
+.heart{
+    position: fixed;
+    top: 210px;
+    left: 30px;
+}
+
+.clock{
+    position: fixed;
+    top: 300px;
+    left: 30px;
+}
+.shit{
+    position: fixed;
+    top: 390px;
+    left: 30px;
+}
+.set{
+    position: fixed;
+    top: 480px;
+    left: 30px;
+}
+
+span{
+    padding: 10px;
+}
+
+ul li{
+    list-style-position: inside;
+}
+
+.pen{
+    list-style-image: url(pen.png);
+    
+}
+
+.heart{ 
+    list-style-image: url(heart.png);
+
+
+}
+.clock{
+    list-style-image: url(clock.png);
+    
+}
+.shit{
+    list-style-image: url(shit.png);
+
+}
+.set{
+    list-style-image: url(setting.png);
+    
+}
+

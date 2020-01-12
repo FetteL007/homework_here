@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+}
+
+li.season{
+    list-style-image: url("arrow_16.png");
+    margin: -15px;
+    padding: 5px;
+    
+}
+
+.snow{
+    list-style-image: url('winter_16.png');
+}
+
+.flower{
+    list-style-image: url('spring_16.png');
+}
+
+.sun{
+    list-style-image: url("summer_16.png");
+}
+
+.rain{
+    list-style-image: url("autumn_16.png");
+}

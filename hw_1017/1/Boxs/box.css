@@ -1,0 +1,33 @@
+body{
+    color: white;
+    text-align: justify;
+}
+
+.box_a{
+    margin: 14px;
+}
+
+.box1{
+    background-color: rgb(0, 95, 95);
+    padding: 10px;
+    text-indent: 60px;
+}
+
+.box2{
+    background-color: darkcyan;
+    padding: 22px;
+}
+a{
+    text-decoration: none;
+    color: pink;
+}
+
+p{
+    color: black;
+    margin: 15px;
+}
+
+li{
+    font-weight: 800;
+}
+
